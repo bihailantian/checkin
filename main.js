@@ -9,7 +9,7 @@ const glados = async () => {
     const headers = {
       cookie,
       referer: 'https://glados.cloud',
-      'user-agent': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)',
+      'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     }
 
     const checkinResponse = await fetch('https://glados.cloud/api/user/checkin', {
